@@ -9,7 +9,9 @@ import {
 } from "react-router-dom";
 
 function App() {
+  
   return (
+<<<<<<< HEAD
     <Router>
       <div>
         <ul>
@@ -73,6 +75,23 @@ function Dashboard() {
     <div>
       <h2>Say Yeah</h2>
       <img src='https://i.ex-cdn.com/giadinhmoi.vn/files/content/2020/04/30/unnamed-1342.jpg'></img>
+=======
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+>>>>>>> 3d6959f9519c0fa5315a81cd16facf815d1bf20d
     </div>
   );
 }
