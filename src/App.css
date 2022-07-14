@@ -32,6 +32,286 @@
   from {
     transform: rotate(0deg);
   }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.nav-ba {
+  background-color: #333333;
+  overflow: auto;
+}
+
+.nav-ba .logo span {
+  color: #F18927;
+}
+
+.nav-ba .menu {
+  float: right;
+}
+
+.nav-ba .menu .item-menu {
+  display: inline-block;
+  font-size: 16px;
+  padding: 16px 24px;
+}
+
+.nav-ba .menu .item-menu:hover {
+  background-color: #505050;
+}
+
+.nav-ba .logo {
+  float: left;
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 0px 10px 50px;
+}
+
+.nav-ba .menu .item-menu .title-item-menu {
+  color: white;
+}
+
+.nav-ba .menu .item-menu .title-item-menu:hover {
+  color: #F18927;
+}
+
+.showcase {
+  height: 600px;
+  background: url(https://media.istockphoto.com/photos/luxury-resort-picture-id104731717?k=20&m=104731717&s=612x612&w=0&h=40INtJRzhmU1O4Rj24zdY8vj4aGsWpPaEfojaVQ8xBo=)no-repeat center center/cover;
+}
+
+.mark {
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+
+.showcase .title-showcase {
+  padding: 30px 0px 40px 0px;
+  line-height: 20px;
+  font-size: 30px;
+}
+
+.showcase .title-showcase span {
+  color: #F18927;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 16px 24px;
+  border: 0;
+  border-radius: 2px;
+  margin-top: 20px;
+  margin-left: 690px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #333333;
+}
+
+.btn-primary:hover {
+  color: #F18927;
+}
+
+.history {
+  background-color: #333333;
+  overflow: auto;
+}
+
+.history .history-image {
+  width: 50%;
+  float: left;
+}
+
+.history .history-content {
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding: 100px 4px 0px 40px;
+  color: white;
+}
+
+.history .history-content .history-content-title {
+  font-size: 30px;
+}
+
+.history .history-content .history-content-title span {
+  color: #F18927;
+}
+
+.btn-light {
+  color: #333333;
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.btn-light:hover {
+  background-color: #F18927;
+  color: white;
+}
+
+.history-content-decs {
+  padding: 10px 20px;
+}
+
+/* facculiti */
+.facculiti-item {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  padding: 40px 40px;
+}
+
+.facculiti-item .facculiti-item-title {
+  font-size: 20px;
+}
+
+#facculiti2 {
+  background-color: #F18927;
+}
+
+/* customer */
+.customer-review {
+  background: url(https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvdGVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80)no-repeat center center/cover;
+
+  padding: 20px;
+}
+
+.customer-review-title {
+  text-align: center;
+  padding: 30px 70px;
+  font-size: 20px;
+}
+
+.customer-review-title span {
+  color: #F18927;
+}
+
+.customer-review-item {
+  padding: 30px 40px;
+  background-color: white;
+  overflow: auto;
+  margin-top: 25px;
+}
+
+.customer-review .customer-review-item .customer-review-item-avt {
+  float: left;
+  width: 10%;
+}
+
+.customer-review .customer-review-item .customer-review-item-avt img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+.customer-review .customer-review-item .customer-review-item-content {
+  float: right;
+  width: 90%;
+  text-align: left;
+  color: black;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+
+/* contact-form */
+.contact-form {
+  padding: 50px 50px;
+}
+
+.contact-form form label,
+input,
+textarea {
+  display: inline-block;
+  width: 100%;
+}
+
+.contact-form form input,
+textarea {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: solid 1px rgb(150, 148, 148);
+}
+
+.contact-form .contact-form-title {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.contact-form .contact-form-title span {
+  color: #F18927;
+}
+
+.contact-form .contact-form-mota {
+  margin-bottom: 5px;
+}
+
+.btn2 {
+  font-size: 16px;
+  padding: 16px 24px;
+  border: 0;
+  border-radius: 2px;
+  margin-top: 20px;
+  margin-left: 0px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+
+.btn2:hover {
+  color: #F18927;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 13px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
   to {
     transform: rotate(360deg);
   }
