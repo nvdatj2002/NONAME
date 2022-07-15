@@ -11,7 +11,6 @@ import {
 function App() {
   
   return (
-<<<<<<< HEAD
     <Router>
       <div>
         <ul>
@@ -75,7 +74,6 @@ function Dashboard() {
     <div>
       <h2>Say Yeah</h2>
       <img src='https://i.ex-cdn.com/giadinhmoi.vn/files/content/2020/04/30/unnamed-1342.jpg'></img>
-=======
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -88,10 +86,9 @@ function Dashboard() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Reactssssssssss
         </a>
       </header>
->>>>>>> 3d6959f9519sssssc0fa5315a81cd16facf815d1bf20d
     </div>
   );
 }
